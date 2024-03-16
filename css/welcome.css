@@ -1,0 +1,51 @@
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/training-828726_1920.jpg);
+}
+
+.container {
+  width: 500px;
+  height: 700px;
+  border-radius: 7%;
+  text-align: center;
+  background-color: white;
+  opacity: 0; /* 초기에는 투명하게 설정 */
+  transition: opacity 2s ease-in-out; /* 투명도가 바뀔 때 효과를 부드럽게 적용 */
+}
+
+.container.fade-in {
+  opacity: 0.5;
+}
+
+.container-title {
+  margin-top: 200px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.main-link {
+  color: black;
+  text-decoration: none;
+}
+
+.main-link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.container-sub-title {
+  margin-top: 70px;
+}
+
+.sub-title {
+  font-size: 24px;
+}
+
+.link-div {
+  margin-top: 70px;
+}

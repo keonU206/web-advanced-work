@@ -1,0 +1,76 @@
+.introduce-title {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 70px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/yoga-1994667_640.jpg);
+  width: 100%;
+  height: 405px;
+}
+
+.introduce-top {
+  text-align: center;
+}
+
+.introduce-p {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.olControlAttribution {
+  right: 20px;
+}
+
+.olControlLayerSwitcher {
+  right: 20px;
+  top: 20px;
+}
+
+.add-container {
+  margin-top: 150px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-desc-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.add-container {
+  margin-bottom: 50px;
+}
+
+.info-container {
+  margin-right: 20px;
+  background-color: orange;
+  color: white;
+  border-radius: 40%;
+  width: 60px;
+  height: 30px;
+}
+
+#addr-title {
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+#map {
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  margin: 0 auto;
+}

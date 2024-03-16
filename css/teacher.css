@@ -1,0 +1,65 @@
+.introduce-title {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 70px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/yoga-1994667_640.jpg);
+  width: 100%;
+  height: 405px;
+}
+
+.introduce-top {
+  text-align: center;
+}
+
+.introduce-p {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.teacher-container {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr); /* 3개의 열을 가진 그리드 */
+  grid-template-rows: repeat(2, auto); /* 2개의 행을 가진 그리드 */
+  gap: 20px; /* 각 그리드 아이템 사이의 간격 */
+  justify-items: center; /* 가로 가운데 정렬 */
+  align-items: center;
+  margin-top: 100px;
+}
+
+.teacher {
+  margin-top: 50px;
+}
+
+.teacher-name-container {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.teacher-info-container {
+  text-align: center;
+  font-weight: 700;
+  font-size: large;
+}
+
+.teacher-img-container {
+  width: 300px;
+  height: 300px;
+}
+
+.teacher-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
